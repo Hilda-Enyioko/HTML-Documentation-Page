@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Documentation Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Technical Documentation Page on HTML" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <div class="header">
+          <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul class="menu-nav">
+            <li><div><a class="nav-link" href="#Introduction">Introduction</a></div></li>
+            <li><div><a class="nav-link" href="#HTML_Elements">HTML Elements</a></div></li>
+            <li><div><a class="nav-link" href="#HTML_Attributes">HTML Attributes</a></div></li>
+            <li><div><a class="nav-link" href="#HTML_Code_Example">HTML Code Example</a></div></li>
+            <li><div><a class="nav-link" href="#HTML_Code_Output">HTML Code Output</a></div></li>
+          </ul>
+          <h1>HTML Documentation Page</h1>
+        </div>
+      </header>
+    </nav>
+    <main id="main-doc">
+      <section id="Introduction" class="main-section">
+        <header>
+          <h2>Introduction</h2>
+          <div class="header-break"></div>
+        </header>
+        <p>HyperText Markup Language(HTML) is the standard markup language for designing documents to be displayed in a web browser. It describes the structure of a Web page. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) as well as tags and attributes. HTML files have a <span class="code-rep"><code>.html</code></span> extension (e.g. index.html).</p>
+      </section>
+      <section id="HTML_Elements" class="main-section">
+        <header>
+          <h2>HTML Elements</h2>
+          <div class="header-break"></div>
+        </header>
+        <p>
+           HTML elements are the building blocks of a web page. They are tools that are used to create webpages and design the content of the webpage. They are identified by a start tag, some content, and an end tag. 
+           <span class="more-info"> A start tag is represented by two angle brackets with the symbol of the element in their middle i.e. <span class="code-rep"><code>&lt;h1&gt;</code></span> for the Heading1 element.</span> 
+           <span class="more-info">An end tag is represented by an angle bracket, followed by a slash, then a closing angle bracket i.e. <span class="code-rep"><code>&lt;/h1&gt;</code></span>for the Heading1 element</span>
+           <span class="more-info">In between the start and the end tag is the content of the element i.e. <span class="code-rep"><code>&lt;h1&gt;Heading1 Content&lt;/h1&gt;</code></span></span>
+           <span class="more-info"><span class="important">Note: </span> It is not all elements require an end tag.</span>
+        </p>
+        <div class="table-wrap">
+          <span id="caption">Examples of HTML Elements</span>
+          <div class="row-head">
+            <span class="name">Element</span>
+            <span class="representation">Representation</span>
+            <span class="function">Function</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th class="name sr-only">Element</th>
+                <th class="representation sr-only">Representation</th>
+                <th class="function sr-only">Function</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-data">
+                <th>Heading 1</th>
+                <td><code>&lt;h1&gt;&lt;/h1&gt;</code></td>
+                <td>This is the highest level of heading in HTML, typically used for the main heading of a page. Heading elements should be used in a logical hierarchy.</td>
+              </tr>
+              <tr class="table-data">
+                <th>Paragraph</th>
+                <td><code>&lt;p&gt;&lt;/p&gt;</code></td>
+                <td>This is used to define a paragraph of text.</td>
+              </tr>
+              <tr class="table-data">
+                <th>Image</th>
+                <td><code>&lt;i&gt;</code></td>
+                <td>This is used to add an image to the content of a webpage.</td>
+              </tr>
+              <tr class="table-data">
+                <th>Anchor</th>
+                <td><code>&lt;a&gt;&lt;/a&gt;</code></td>
+                <td>This is used to create hyperlinks or clickable links in HTML.</td>
+              </tr>
+              <tr class="table-data">
+                <th>Line Break</th>
+                <td><code>&lt;br&gt;</code></td>
+                <td>This allows you to create a line break within a block of text, forcing subsequent content to appear on a new line.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section id="HTML_Attributes" class="main-section">
+        <header>
+          <h2>HTML Attributes</h2>
+          <div class="header-break"></div>
+        </header>
+        <p>
+          HTML attributes are additional properties pecified within the start tag of an HTML element that provides extra information or modify their behavior in aspects such as appearance, behavior, data, or relationships of the element.
+          <span class="more-info"> The format of an HTML attribute consists of two parts: the attribute name and its value. Both of which are specified within the opening tag of an Element. The attribute name is the written in lower case, followed by an equal to sign, and then the attribute's value i.e. <span class="code-rep"><code>&lt;h1 class="title"&gt;</code></span> for the class attribute for the Heading1 element.</span> 
+        </p>
+        <div class="table-wrap">
+          <span id="caption">Examples of HTML Attributes</span>
+          <div class="row-head">
+            <span class="name">Attribute</span>
+            <span class="representation">Representation</span>
+            <span class="function">Function</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th class="name sr-only">Attribute</th>
+                <th class="representation sr-only">Representation</th>
+                <th class="function sr-only">Function</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-data">
+                <th>Class</th>
+                <td><code>&lt;div class="class-value"&gt;&lt;/div&gt;</code></td>
+                <td>This specifies one or more CSS classes to apply to an element for targeting of specific elements for styling.</td>
+              </tr>
+              <tr class="table-data">
+                <th>ID</th>
+                <td><code>&lt;h1 id="id-value"&gt;&lt;/h1&gt;</code></td>
+                <td>This provides a unique identifier for an element.</td>
+              </tr>
+              <tr class="table-data">
+                <th>Source</th>
+                <td><code>&lt;i src="image-url"&gt;</code></td>
+                <td>This specifies the source URL of an external resource.</td>
+              </tr>
+              <tr class="table-data">
+                <th>Href</th>
+                <td><code>&lt;a href="hyperlink"&gt;&lt;/a&gt;</code></td>
+                <td>This defines the URL or destination of a link when the element represents a hyperlink.</td>
+              </tr>
+              <tr class="table-data">
+                <th>Style</th>
+                <td><code>&lt;p style="CSS-style"&gt;&lt;/p&gt;</code></td>
+                <td>This allows inline CSS styling to be applied directly to an element.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section id="HTML_Code_Example" class="main-section">
+        <header>
+          <h2>HTML Code Example</h2>
+          <div class="header-break"></div>
+        </header>
+        <div id="code-block">
+          <p class="code-block">
+            <span class="newline"><span class="comment">&lt;!DOCTYPE html</span> <span class="class"></span><span class="comment">&gt;</span></span>
+            <span class="newline">&lt;<span class="element">html</span>&gt;</span>
+            <span class="newline"> &lt;<span class="element">body</span>&gt;</span>
+            <span class="newline">  &lt;<span class="element">h1</span> <span class="attribute">id</span>=<span class="value">"title"</span>&gt;
+            Welcome To My HTML Website 
+            &lt;/<span class="element">h1</span>&gt;</span>
+            <span class="newline">  &lt;<span class="element">p</span>&gt;
+            This is a paragraph of text.
+            &lt;/<span class="element">p</span>&gt;</span>
+            <span class="newline">  &lt;<span class="element">h2</span>&gt;
+            About Me
+            &lt;/<span class="element">h2</span>&gt;</span>
+            <span class="newline">  &lt;<span class="element">ul</span>&gt;</span>
+            <span class="newline">  &lt;<span class="element">li</span>&gt;
+            Name: John Doe
+            &lt;/<span class="element">li</span>&gt;</span>
+            <span class="newline">  &lt;<span class="element">li</span>&gt;
+            Age: 25 
+            &lt;/<span class="element">li</span>&gt;</span>  
+            <span class="newline">  &lt;<span class="element">li</span>&gt;
+            Location: Cityville
+            &lt;/<span class="element">li</span>&gt;</span>
+            <span class="newline">  &lt;/<span class="element">ul</span>&gt;</span>
+            <span class="newline"> &lt;<span class="element">h3</span>&gt;
+            Contact
+            &lt;/<span class="element">h3</span>&gt;</span>
+            <span class="newline">&lt;<span class="element">p</span>&gt;
+            You can reach me via email:
+            &lt;/<span class="element">p</span>&gt;</span>
+            <span class="newline">&lt;<span class="element">a</span> <span class="attribute">href</span>=<span class="value">"mailto:john@example.com"</span>&gt;           
+            john@example.com
+            &lt;/<span class="element">a</span>&gt;</span>
+            <span class="newline">&lt;/<span class="element">body</span>&gt;</span>
+            <span class="newline">&lt;/<span class="element">html</span>&gt;</span>
+          </p>
+        </div>
+      </section>
+      <section id="HTML_Code_Output" class="main-section">
+        <header>
+          <h2>HTML Code Output</h2>
+          <div class="header-break"></div>
+        </header>
+        <div id="code-output">
+          <!DOCTYPE html >
+          <html>
+            <body>
+              <h1 id="title"> Welcome To My HTML Website </h1>
+              <p class="p-output"> This is a paragraph of text. </p>
+              <h2 class="h-output"> About Me </h2>
+                <ul>
+                  <li> Name: John Doe </li>
+                  <li> Age: 25 </li>
+                  <li> Location: Cityville </li>
+                </ul>
+                <h3>Contact</h3>
+                <p class="p-output"> You can reach me via email: </p>
+                <a href="mailto:john@example.com"> john@example.com </a>
+            </body>
+          </html>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="footer">
+        <p class="start-note">Created by <a href="https://linktr.ee/hildaenyioko">Hilda Enyioko</a></p>
+        <div id="social-icons">
+          <a href="https://github.com/Hilda-Enyioko"><img id="github" alt="github logo" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" /></a>
+            <a href="https://www.linkedin.com/in/hilda-enyioko-651b06231/"><img id="linkedin" alt="linkedin logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/LinkedIn_icon_circle.svg" /></a>
+            <a href="https://www.twitter.com/hildahaemaxwell"><img id="twitter" alt="twitter logo" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" /></a>
+          <a href="https://www.instagram.com/amarachii._e"><img id="instagram" alt="instagram logo" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" /></a>
+        </div>
+        <a id="endlink" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"><p id="end-note">Learn HTML today!</p></a>
+      </div>
+    </footer>
+  </body>
+</html>
