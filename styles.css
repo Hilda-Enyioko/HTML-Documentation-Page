@@ -5,9 +5,7 @@
 }
 
 @media (max-width:600px){
-  #menu-toggle:checked ~ #title {
-    font-size: 20px;
-  }
+
 }
 
 body {
@@ -100,7 +98,7 @@ header {
 }
 
 #title {
-  /*font-size: 27px;*/
+  font-size: 27px;
   margin: 0 auto;
   text-align: center;
 }
