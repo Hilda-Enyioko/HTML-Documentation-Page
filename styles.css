@@ -19,7 +19,12 @@
     margin-left: 0;
   }
 
-  #code-block, #code-output {
+  #code-block {
+    margin: 25px auto;
+    overflow: scroll;
+  }
+
+  #code-output {
     margin: 25px auto;
     overflow: scroll;
   }
