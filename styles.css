@@ -4,6 +4,30 @@
   }
 }
 
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  h1 {
+    margin-top: 10px;
+  }
+
+  .navlinks {
+    width: 100%;
+    position: static;
+    max-height: initial;
+    padding: 10px;
+  }
+
+  #navbar ul li {
+    padding: 10px;
+  }
+}
+
+
 body {
   background-color: #1b1b32;
   top: 0;
@@ -129,7 +153,7 @@ h1 {
   line-height: 1.5rem;
 }
 
-#introduction {
+#Introduction {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
