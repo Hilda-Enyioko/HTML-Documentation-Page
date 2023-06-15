@@ -5,9 +5,13 @@
 }
 
 @media (max-width: 600px) {
+  .menu-icon{
+    height: 15px;
+  }
+
   h1 {
-    font-size: 25px;
-    margin-left: 5px;
+    font-size: 22px;
+    margin-left: 3px;
   }
 
   #code-block {
