@@ -97,6 +97,11 @@ header {
   padding: 5px 10px;
 }
 
+#title-block {
+  padding-right: 5px;
+  word-break: break-all;
+}
+
 #title {
   font-size: 27px;
   margin: 0 auto;
