@@ -97,8 +97,9 @@ header {
   padding: 5px 10px;
 }
 
-h1 {
+#title {
   font-size: 27px;
   margin: 0 auto;
   text-align: center;
+  word-wrap: break-word;
 }
