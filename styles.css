@@ -7,11 +7,11 @@
 @media (max-width: 600px) {
   .menu-icon{
     height: 10px;
-    width: 20px;
+    width: 15px;
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   #code-block {
