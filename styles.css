@@ -5,7 +5,9 @@
 }
 
 @media (max-width:600px){
-
+  #menu-toggle:checked ~ #title {
+    font-size: 25px;
+  }
 }
 
 body {
