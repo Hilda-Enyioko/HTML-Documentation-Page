@@ -5,21 +5,10 @@
 }
 
 @media (max-width: 600px) {
-  .menu-icon span {
-    display: block;
-    width: 80%;
-    height: 4px;
-    background-color: #1b1b32;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-
-  h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 30px;
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
