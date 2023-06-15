@@ -166,5 +166,6 @@ header {
   background-color: white;
   width: 80%;
   margin: 30px auto;
+  padding: 10px;
   overflow-x: scroll;
 }
