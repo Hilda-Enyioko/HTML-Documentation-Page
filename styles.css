@@ -250,7 +250,7 @@ tbody tr td:nth-child(2) {
   width: 80%;
   background-color: #1b1b32;
   color: #ffffff;
-  margin: 25px 40px;
+  margin: 25px auto;
   padding: 15px 15px 90px;
   overflow: scroll;
 }
@@ -279,7 +279,7 @@ tbody tr td:nth-child(2) {
   background-color: white;
   color: black;
   width: 80%;
-  margin: 15px 20px;
+  margin: 15px auto;
   padding: 30px 30px 50px; 
   font-family: Times New Roman;
   overflow: scroll;
