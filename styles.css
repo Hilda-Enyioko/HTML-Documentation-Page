@@ -23,7 +23,6 @@ header {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   font-family: Helvetica, sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
