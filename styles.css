@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
   #code-block {
     margin: 25px auto;
     overflow-x: scroll;
@@ -135,13 +139,13 @@ h1 {
 }
 
 .main-section h2:not(.h-output) {
-  margin: 20px auto 5px 30px;
+  margin: 20px auto 5px 40px;
   font-size: 28px
 }
 
 .main-section p:not(.p-output) {
   font-size: 17px;
-  margin: 15px 30px;
+  margin: 15px 40px;
   text-align: left;
   line-height: 1.5rem;
 }
@@ -370,16 +374,17 @@ footer {
   color: #1b1b32f0;
 }
 
-#HTML_Elements::-webkit-scrollbar, #HTML_Attributes::-webkit-scrollbar, #HTML_Code_Example::-webkit-scrollbar, #HTML_Code_Output::-webkit-scrollbar{
-  background-color: #f5f5f5;
-}
-
-#HTML_Elements::-webkit-scrollbar, #HTML_Attributes::-webkit-scrollbar, #HTML_Code_Example::-webkit-scrollbar, #HTML_Code_Output::-webkit-scrollbar{
+#code-block::-webkit-scrollbar, #code-output::-webkit-scrollbar, .table-wrap::-webkit-scrollbar {
   background-color: #f5f5f5;
   width: 0px;
 }
 
-#HTML_Elements::-webkit-scrollbar, #HTML_Attributes::-webkit-scrollbar, #HTML_Code_Example::-webkit-scrollbar, #HTML_Code_Output::-webkit-scrollbar{
+#code-block::-webkit-scrollbar-track, #code-output::-webkit-scrollbar-track, .table-wrap::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  width: 0px;
+}
+
+#code-block::-webkit-scrollbar-thumb, #code-ouput::-webkit-scrollbar-thumb, .table-wrap::-webkit-scrollbar-thumb {
   background-color: #d0d0d5;
   border-radius: 7px;
   min-height: auto;
