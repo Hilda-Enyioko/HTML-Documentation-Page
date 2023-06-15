@@ -7,16 +7,16 @@
 @media (max-width: 600px) {
   #code-block {
     margin: 25px auto;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 
   #code-output {
     margin: 25px auto;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 
   .table-wrap {
-    overflow: scroll;
+    overflow-x: scroll;
   }
 }
 
@@ -111,7 +111,6 @@ header {
 }
 
 h1 {
-  margin: 0 auto;
   text-align: center;
 }
 
