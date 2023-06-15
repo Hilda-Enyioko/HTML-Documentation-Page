@@ -130,3 +130,21 @@ header {
   text-align: left;
   line-height: 1.5rem;
 }
+
+.header-break {
+  height: 0;
+  display: flex;
+  margin: 0 auto;
+  width: 99%;
+  border-top: double 7px #1b1b32;
+}
+
+.more-info {
+  display: block;
+  margin-top: 5px;
+}
+
+#Introduction {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
