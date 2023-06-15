@@ -124,6 +124,7 @@ header {
   font-family: Helvetica, sans-serif;
   width: 90%;
   margin-top: 10px;
+  padding-bottom: 20px;
 }
 
 .main-section h2:not(.h-output) {
@@ -165,4 +166,5 @@ header {
   background-color: white;
   width: 80%;
   margin: 30px auto;
+  overflow: scroll;
 }
