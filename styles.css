@@ -152,13 +152,13 @@ h1 {
 }
 
 .main-section h2:not(.h-output) {
-  margin: 20px auto 5px 40px;
+  margin: 20px auto 5px 35px;
   font-size: 28px
 }
 
 .main-section p:not(.p-output) {
   font-size: 17px;
-  margin: 15px 40px;
+  margin: 15px 35px;
   text-align: left;
   line-height: 1.5rem;
 }
