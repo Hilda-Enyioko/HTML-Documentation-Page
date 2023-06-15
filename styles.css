@@ -6,7 +6,8 @@
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 5px;
   }
 
   #code-block {
@@ -24,11 +25,11 @@
   }
 
   .main-section h2:not(.h-output) {
-    margin-left: 30px;
+    margin: 20px auto 5px 30px;
   }
   
   .main-section p:not(.p-output) {
-   margin-left: 30px;
+   margin: 15px 30px;
   }
 }
 
