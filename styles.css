@@ -98,6 +98,8 @@ header {
 }
 
 #title-block {
+  background-color: white;
+  margin: 0 auto;
   padding-right: 5px;
   word-break: break-all;
 }
