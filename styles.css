@@ -40,6 +40,7 @@ header {
   position: relative;
   top: 5px;
   margin-left: 30px;
+  margin-right: 10px;
 }
 
 .menu-icon span {
@@ -98,6 +99,7 @@ header {
 }
 
 #title-block {
+  background-color: white;
   margin: 0 auto;
   padding-right: 10px;
   word-break: break-all;
@@ -148,6 +150,11 @@ header {
 .more-info {
   display: block;
   margin-top: 5px;
+}
+
+.code-rep {
+  background-color: #d0d0d5;
+  border-radius: 5px;
 }
 
 #Introduction {
