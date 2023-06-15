@@ -6,7 +6,7 @@
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #code-block {
@@ -21,6 +21,14 @@
 
   .table-wrap {
     overflow-x: scroll;
+  }
+
+  .main-section h2:not(.h-output) {
+    margin-left: 30px;
+  }
+  
+  .main-section p:not(.p-output) {
+   margin-left: 30px;
   }
 }
 
