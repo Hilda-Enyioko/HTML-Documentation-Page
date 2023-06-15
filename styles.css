@@ -196,7 +196,7 @@ h1 {
 }
 
 .table-wrap {
-  width: 85%;
+  width: 80%;
   background-color: #ffffff;
   margin: 30px auto 0;
   padding: 25px;
@@ -206,7 +206,7 @@ h1 {
 
 table {
   border-collapse: collapse;
-  width: 90%;
+  width: 80%;
 }
 
 .table-wrap #caption {
