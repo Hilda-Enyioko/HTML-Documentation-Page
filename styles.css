@@ -289,7 +289,6 @@ tbody tr td:nth-child(2) {
   margin: 25px 60px;
   padding: 30px 30px 50px; 
   font-family: Times New Roman;
-  overflow: scroll;
 }
 
 #title{
