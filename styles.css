@@ -5,11 +5,20 @@
 }
 
 @media (max-width: 600px) {
-  .header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  header {
+    position: relative;
   }
+
+  .menu-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .h1-container {
+    margin-left: 0;
+  }
+}
 
   #code-block, #code-output {
     margin: 25px auto;
