@@ -5,20 +5,6 @@
 }
 
 @media (max-width: 600px) {
-  header {
-    position: relative;
-  }
-
-  .menu-icon {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
-
-  .h1-container {
-    margin-left: 0;
-  }
-
   #code-block {
     margin: 25px auto;
     overflow: scroll;
