@@ -71,6 +71,7 @@ header {
 .menu-nav {
   background-color: #d0d0d5;
   border-radius: 5px;
+  margin-left: 30px;
   padding: 10px;
   display: none;
 }
