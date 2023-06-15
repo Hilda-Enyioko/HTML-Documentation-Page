@@ -17,8 +17,9 @@ header {
   block-size: fit-content;
 }
 
-.header {
+#header {
   background-color: #f1f1f8;
+  color: #1b1b32;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
