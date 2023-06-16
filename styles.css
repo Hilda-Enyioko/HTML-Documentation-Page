@@ -197,7 +197,18 @@ header {
   margin-right: 20px;
 }
 
-.col-one{
+.col-one {
   margin-left: 8px;
   width: 25%;
+}
+
+.col-two {
+ margin-left: 8px;
+ width: 30%;
+}
+
+.col-three {
+  margin-left: 8px;
+  margin-right: 10px;
+  width: 45%;
 }
