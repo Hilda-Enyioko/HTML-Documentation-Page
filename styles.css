@@ -249,12 +249,12 @@ button span {
   color: black;
   width: 80%;
   margin: 15px auto;
-  padding: 30px 30px 50px; 
+  padding: 30px 10px 50px; 
   font-family: Times New Roman;
   overflow-x: scroll;
 }
 
-#title {
+#h-output {
   text-align: left;
   font-size: 32px;
 }
