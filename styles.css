@@ -4,10 +4,6 @@
   }
 }
 
-@media (max-width:600px){
-
-}
-
 body {
   background-color: #1b1b32;
 }
@@ -329,4 +325,19 @@ footer {
 
 #endlink:hover {
   color: #1b1b32f0;
+}
+
+.table-wrap::-webkit-scrollbar, #code-block::-webkit-scrollbar, #code-output::-webkit-scrollbar {
+  background-color: #f5f5f5;
+}
+
+.table-wrap::-webkit-scrollbar-track, #code-block::-webkit-scrollbar-track, #code-output::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+  width: 0px;
+}
+
+.table-wrap::-webkit-scrollbar-thumb, #code-block::-webkit-scrollbar-thumb, #code-output::-webkit-scrollbar-thumb {
+  background-color: #d0d0d5;
+  border-radius: 7px;
+  min-height: auto;
 }
