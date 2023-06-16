@@ -179,10 +179,24 @@ header {
 .row-head {
   background-color: #1b1b32;
   color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: flex;
   flex-direction: row;
 }
 
 .row-head div {
-  background-color: black;
+  background-color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.row-head span {
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.col-one{
+  margin-left: 10px;
+  padding-right: 30px;
 }
