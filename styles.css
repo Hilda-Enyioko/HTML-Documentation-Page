@@ -179,7 +179,7 @@ header {
 .row-head {
   background-color: #1b1b32;
   color: white;
-  width: 90%;
+  width: fit-content;
   margin-top: 5px;
   margin-bottom: 5px;
   display: flex;
@@ -199,16 +199,16 @@ header {
 
 .col-one {
   margin-left: 8px;
-  width: 25%;
+  width: ;
 }
 
 .col-two {
  margin-left: 8px;
- width: 30%;
+ width: ;
 }
 
 .col-three {
   margin-left: 8px;
   margin-right: 10px;
-  width: 45%;
+  width: ;
 }
