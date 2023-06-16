@@ -193,3 +193,32 @@ thead {
   background-color: #1b1b32;
   color: white;
 }
+
+#code-block {
+  width: 80%;
+  background-color: #1b1b32;
+  color: #ffffff;
+  margin: 25px 40px;
+  padding: 15px 15px 90px;
+  overflow: scroll;
+}
+
+.newline {
+  display: block;
+}
+
+.comment {
+  color: grey
+}
+
+.element {
+  color: green;
+}
+
+.attribute {
+  color: red;
+}
+
+.value {
+  color: blue;
+}
