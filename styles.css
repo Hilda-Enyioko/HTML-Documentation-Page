@@ -233,7 +233,7 @@ button {
   margin-right: 10%;
 }
 
-button p {
+button span {
   color: #1b1b32;
   font-weight: 500;
 }
