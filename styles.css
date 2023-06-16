@@ -179,6 +179,9 @@ header {
 table, td, th {
   text-align: left;
   border: 3px solid #1b1b32;
+}
+
+td, th {
   padding: 15px;
 }
 
