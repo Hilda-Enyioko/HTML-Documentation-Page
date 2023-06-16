@@ -228,4 +228,6 @@ button {
   width: 80px;
   border-radius: 5px;
   margin-top: 30px;
+  float: right;
+  margin-right: 30px;
 }
