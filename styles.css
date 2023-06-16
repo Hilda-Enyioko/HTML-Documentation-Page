@@ -249,7 +249,7 @@ button span {
   color: black;
   width: 80%;
   margin: 15px auto;
-  padding: 30px 10px 50px; 
+  padding: 30px 15px 50px 0; 
   font-family: Times New Roman;
   overflow-x: scroll;
 }
