@@ -175,3 +175,13 @@ header {
   text-align: left;
   color: #094182;
 }
+
+.rowhead {
+  background-color: #1b1b32;
+  color: white;
+  display: flex;
+}
+
+.rowhead div {
+  background-color: black;
+}
