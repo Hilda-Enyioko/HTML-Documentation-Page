@@ -217,7 +217,7 @@ tbody {
   margin: 10px auto;
 }
 
-tr th {
+tr th, tr td {
   margin-top: 15px;
   margin-right: 10px;
 }
