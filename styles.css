@@ -179,6 +179,7 @@ header {
 .row-head {
   background-color: #1b1b32;
   color: white;
+  width: fit-content;
   margin-top: 5px;
   margin-bottom: 5px;
   display: flex;
