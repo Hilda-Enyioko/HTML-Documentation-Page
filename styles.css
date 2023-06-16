@@ -176,30 +176,10 @@ header {
   color: #094182;
 }
 
-.row-head {
-  background-color: #1b1b32;
-  color: white;
-  width: fit-content;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: flex;
-  flex-direction: row;
-}
-
-.row-head div {
-  background-color: red;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.row-head span {
-  font-weight: 700;
-  margin-right: 20px;
-}
-
 table, td, th {
   text-align: left;
   border: 3px solid #1b1b32;
+  margin: 10px;
 }
 
 thead {
