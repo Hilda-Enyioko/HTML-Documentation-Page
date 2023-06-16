@@ -251,7 +251,7 @@ button span {
   margin: 15px auto;
   padding: 30px 30px 50px; 
   font-family: Times New Roman;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 #title{
