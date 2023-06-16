@@ -200,7 +200,7 @@ thead {
   color: #ffffff;
   margin: 25px auto;
   padding: 15px 15px 90px;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 .newline {
