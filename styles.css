@@ -197,32 +197,11 @@ header {
   margin-right: 20px;
 }
 
-.col-one {
-  margin-left: 8px;
-  width: ;
+table, td, th {
+  text-align: left;
 }
 
-.col-two {
- margin-left: 8px;
- width: ;
-}
-
-.col-three {
-  margin-left: 8px;
-  margin-right: 10px;
-  width: ;
-}
-
-tbody {
-  margin: 10px auto;
-}
-
-tr th {
-  margin-top: 15px;
-  margin-right: 10px;
-}
-
-tr td {
-  margin-top: 15px;
-  margin-right: 10px;
+thead {
+  background-color: #1b1b32;
+  color: white;
 }
