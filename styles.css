@@ -224,6 +224,9 @@ thead {
 }
 
 button {
+  background-color: #f1f1f8;
+  color: #1b1b32;
+  font-weight: 500;
   height: 30px;
   width: 80px;
   border-radius: 5px;
