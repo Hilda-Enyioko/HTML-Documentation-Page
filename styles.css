@@ -176,12 +176,13 @@ header {
   color: #094182;
 }
 
-.rowhead {
+.row-head {
   background-color: #1b1b32;
   color: white;
   display: flex;
+  flex-direction: row;
 }
 
-.rowhead div {
+.row-head div {
   background-color: black;
 }
