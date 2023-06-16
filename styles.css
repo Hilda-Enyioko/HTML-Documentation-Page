@@ -212,3 +212,7 @@ header {
   margin-right: 10px;
   width: ;
 }
+
+tbody {
+  margin: 10px auto;
+}
