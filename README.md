@@ -2,7 +2,7 @@
 This is a HyperText Markup Language (HTML) Technical Documentation Page. HTML_Documentation-Page is my third project for the [@freeCodeCamp.org](https://github.com/freeCodeCamp) (New)Responsive Web Design course.
 
 ## About
-This project is explains the features and functionalities of HyperText Markup Language (HTML). It is a beginner-friendly guide to understanding the basics of HTML. It is divided into five sections which include:
+This project explains the features and functionalities of HyperText Markup Language (HTML). It is a beginner-friendly guide to understanding the basics of HTML. It is divided into five sections which include:
 
 1  [Introduction](https://html-documentation-page.netlify.app/#Introduction): This provides a concise overview and context of HTML.
 
